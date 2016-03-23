@@ -11,7 +11,7 @@ sudo docker run \
     --publish=8080:8080 \
     --detach=true \
     --name=cadvisor \
-    robinthrift/raspian-cadvisor:latest
+    robinthrift/raspbian-cadvisor:latest
 ```
 
 More Info on the [cAdvisor GitHub](https://github.com/google/cadvisor) page.
